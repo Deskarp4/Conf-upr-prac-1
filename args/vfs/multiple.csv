@@ -1,0 +1,6 @@
+path,type,content_base64
+motd,file,V2VsY29tZSB0byBNdWx0aXBsZSBWRlMhCg==
+docs,dir,
+docs/manual.txt,file,SGVyZSdzIG15IG1hbnVhbCBjb250ZW50Cg==
+images,dir,
+images/logo.bin,file,QmluYXJ5Q29udGVudA==

@@ -1,0 +1,8 @@
+path,type,content_base64
+motd,file,V2VsY29tZSB0byBEZWVwIFZGUyEK
+home,dir,
+home/user,dir,
+home/user/.profile,file,UHJvZmlsZSBjb250ZW50Cg==
+home/user/projects,dir,
+home/user/projects/proj1,dir,
+home/user/projects/proj1/readme.txt,file,UG9sbGVkIGZpbGUgZm9yIHByb2oxCg==

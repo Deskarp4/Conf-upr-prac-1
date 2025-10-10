@@ -1,0 +1,10 @@
+ls
+
+cd /home
+
+ls
+
+cd /nonexistent
+
+cd /
+
