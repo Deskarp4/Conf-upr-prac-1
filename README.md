@@ -93,6 +93,7 @@ python "D:\mirea\conf upr\project.py" --vfs-path "D:\mirea\conf upr\args\vfs\т�
   Примеры использования:
 
 
+```
 === ПАРАМЕТРЫ ЗАПУСКА ===
 vfs_path: D:\mirea\conf upr\args\vfs\deep.csv
 script  : D:\mirea\conf upr\args\startconfigs\start3.txt
@@ -114,3 +115,4 @@ user	<dir>
 > cd /nonexistent
 cd: путь не найден: /nonexistent
 Стартовый скрипт: ошибка на строке 4: 'cd /nonexistent'. Выполнение прервано.
+```
