@@ -80,5 +80,37 @@ show_motd() — отображение сообщения дня (motd);
 on_enter(event) — обработка ввода команды;
 
 handle_line(line) — обработка и исполнение команды;
+
 run_script(path) — выполнение стартового скрипта;
+
 run_next_script_line() — последовательное выполнение строк скрипта.
+
+
+  Команда для запуска проекта: 
+
+python "D:\mirea\conf upr\project.py" --vfs-path "D:\mirea\conf upr\args\vfs\таблица.csv" --script "D:\mirea\conf upr\args\startconfigs\start.txt"
+
+  Примеры использования:
+
+
+=== ПАРАМЕТРЫ ЗАПУСКА ===
+vfs_path: D:\mirea\conf upr\args\vfs\deep.csv
+script  : D:\mirea\conf upr\args\startconfigs\start3.txt
+==========================
+
+Загрузка VFS из CSV: D:\mirea\conf upr\args\vfs\deep.csv
+VFS успешно загружен в память.
+----- motd -----
+Welcome to Deep VFS!
+----------------
+
+=== ВЫПОЛНЕНИЕ СКРИПТА D:\mirea\conf upr\args\startconfigs\start3.txt ===
+> ls
+home	<dir>
+motd	<file>
+> cd /home
+> ls
+user	<dir>
+> cd /nonexistent
+cd: путь не найден: /nonexistent
+Стартовый скрипт: ошибка на строке 4: 'cd /nonexistent'. Выполнение прервано.
