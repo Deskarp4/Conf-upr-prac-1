@@ -88,7 +88,7 @@ run_next_script_line() — последовательное выполнение
 
   Команда для запуска проекта: 
 
-python "D:\mirea\conf upr\project.py" --vfs-path "D:\mirea\conf upr\args\vfs\таблица.csv" --script "D:\mirea\conf upr\args\startconfigs\start.txt"
+python "project.py" --vfs-path "args/vfs/deep.csv" --script "args/startconfigs/start.txt"
 
   Примеры использования:
 
